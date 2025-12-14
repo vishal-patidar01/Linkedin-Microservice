@@ -1,0 +1,18 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Ignore all application.properties and application.yml
+**/src/main/resources/application.properties
+**/src/main/resources/application.yml
+
+# Ignore local environment configs
+**/src/main/resources/*.properties
+**/src/main/resources/*.yml
+
+# Ignore target folder
+*/target/
+
+# Ignore IDE files
+.idea/
+*.iml
