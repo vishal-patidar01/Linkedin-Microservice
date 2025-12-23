@@ -1,0 +1,15 @@
+cat > .gitignore << EOF
+# OS/IDE files
+.DS_Store
+.idea/
+**/.DS_Store
+**/.idea/
+
+# Maven/Build
+**/target/
+**/.mvn/
+**/logs/
+
+# Configs
+**/application*.properties
+EOF
